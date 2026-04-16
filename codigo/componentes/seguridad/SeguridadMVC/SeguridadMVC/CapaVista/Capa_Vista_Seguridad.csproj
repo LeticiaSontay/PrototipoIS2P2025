@@ -110,6 +110,12 @@
     <Compile Include="Frm_Reporte_Empleado.Designer.cs">
       <DependentUpon>Frm_Reporte_Empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_REPORTE_LINEAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_REPORTE_LINEAS.Designer.cs">
+      <DependentUpon>Frm_REPORTE_LINEAS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Reporte_modulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +236,12 @@
       <DependentUpon>Reporte_empleado.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="REPORTE_LINEAS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>REPORTE_LINEAS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reporte_modulo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -273,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Reporte_Empleado.resx">
       <DependentUpon>Frm_Reporte_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_REPORTE_LINEAS.resx">
+      <DependentUpon>Frm_REPORTE_LINEAS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Reporte_modulos.resx">
       <DependentUpon>Frm_Reporte_modulos.cs</DependentUpon>
@@ -337,6 +352,10 @@
     <EmbeddedResource Include="Reporte_empleado.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Reporte_empleado.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REPORTE_LINEAS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REPORTE_LINEAS.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reporte_modulo.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
